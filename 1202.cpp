@@ -32,8 +32,7 @@ long long solve() {
             idx++;
         }
         if (!pq.empty()) {
-            sum += pq.top();
-            pq.pop();
+            sum += pq.top();q
         }
     }
     return sum;
